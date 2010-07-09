@@ -1,0 +1,14 @@
+4/OCT/2010 16:00-18:00
+
+PROGRAMA
+- Introducción al curso (IM, SC)
+- La evaluación de stocks en la gestión pesquera (VT)
+- Herramientas en R y FLR (IM)
+- Bibliografía general
+  - Pesquerías
+  - R
+
+- Ejercicio práctico
+
+- Lecturas
+  - Paper a discutir:
