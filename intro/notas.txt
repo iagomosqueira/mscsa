@@ -1,15 +1,15 @@
 13/OCT/2010 16:00-17:00
 
 PROGRAMA
+- La evaluación de stocks en la gestión pesquera (SC, VT)
 - Introducción al curso (IM)
 - Presentación de bibliografía general
   - Pesquerías
   - R
-- La evaluación de stocks en la gestión pesquera (SC, VT)
 - Herramientas en R y FLR (IM)
   - Tutoriales
 
-- Ejercicio práctico: FLCore, FLEDA
+- Ejercicio práctico: arrays, FLCore
 
 - Lecturas
   - Paper a discutir:
