@@ -1,0 +1,416 @@
+ Lowestoft VPA Version 3.1 
+
+   22/04/2010  10:12   
+
+ Extended Survivors Analysis
+
+ Megrim (L. whiffiagonis.) in Divisions VIIIc and IXa                            
+
+ CPUE data from file fleetw.txt                                                                      
+
+ Catch data for  24 years. 1986 to 2009. Ages  1 to   7.
+
+      Fleet,            First, Last, First, Last, Alpha,  Beta
+                    ,    year, year,  age ,  age
+ SP-CORUTR8c         ,   1990, 2009,   2,     6,   .000,  1.000
+ SP-AVILESTR         ,   1990, 2009,   2,     6,   .000,  1.000
+ SP-GFS						        ,   1990, 2009,   1,     6,   .750,   .830
+
+
+ Time series weights : 
+
+      Tapered time weighting not applied
+
+
+ Catchability analysis :
+
+      Catchability dependent on stock size for ages <    5
+
+         Regression type = C
+         Minimum of   5 points used for regression
+         Survivor estimates shrunk to the population mean for ages <  5
+
+
+      Catchability independent of age for ages >=    5
+
+
+ Terminal population estimation :
+
+      Survivor estimates shrunk towards the mean F
+      of the final   5 years or the   3 oldest ages.
+
+      S.E. of the mean to which the estimates  are shrunk =   1.500
+
+      Minimum standard error for population
+      estimates derived from each fleet =    .200
+
+      Prior weighting not applied
+
+
+ Tuning had not converged after  200 iterations
+
+
+ Total absolute residual between iterations
+199 and 200 =     .00408
+
+ Final year F values
+ Age         ,      1,      2,      3,      4,      5,      6
+ Iteration **,  .0197,  .0709,  .0981,  .1253,  .2254,  .2558
+ Iteration **,  .0197,  .0707,  .0980,  .1249,  .2239,  .2540
+
+ 
+1
+
+
+ Regression weights 
+       , 1.000, 1.000, 1.000, 1.000, 1.000, 1.000, 1.000, 1.000, 1.000, 1.000
+
+
+
+ Fishing mortalities
+    Age,  2000,  2001,  2002,  2003,  2004,  2005,  2006,  2007,  2008,  2009
+ 
+      1,  .003,  .015,  .014,  .053,  .018,  .062,  .045,  .029,  .004,  .020
+      2,  .088,  .144,  .071,  .142,  .129,  .108,  .306,  .105,  .140,  .071
+      3,  .321,  .323,  .214,  .172,  .172,  .336,  .361,  .278,  .190,  .098
+      4,  .329,  .209,  .143,  .180,  .235,  .198,  .360,  .412,  .287,  .125
+      5,  .343,  .232,  .212,  .193,  .291,  .228,  .334,  .361,  .428,  .224
+      6,  .175,  .250,  .123,  .100,  .392,  .215,  .246,  .262,  .255,  .254
+
+
+
+1
+ XSA population numbers (Thousands)
+
+                                AGE
+ YEAR ,           1,            2,            3,            4,            5,            6,     
+
+ 2000 ,    3.08E+03, 1.60E+03, 2.41E+03, 2.00E+03, 1.37E+03, 5.72E+02,
+ 2001 ,    3.01E+03, 2.51E+03, 1.20E+03, 1.43E+03, 1.18E+03, 7.98E+02,
+ 2002 ,    2.50E+03, 2.43E+03, 1.78E+03, 7.11E+02, 9.48E+02, 7.63E+02,
+ 2003 ,    2.77E+03, 2.01E+03, 1.85E+03, 1.18E+03, 5.05E+02, 6.28E+02,
+ 2004 ,    2.88E+03, 2.15E+03, 1.43E+03, 1.28E+03, 8.04E+02, 3.41E+02,
+ 2005 ,    2.28E+03, 2.32E+03, 1.55E+03, 9.86E+02, 8.25E+02, 4.92E+02,
+ 2006 ,    2.29E+03, 1.75E+03, 1.70E+03, 9.06E+02, 6.62E+02, 5.38E+02,
+ 2007 ,    3.02E+03, 1.79E+03, 1.06E+03, 9.71E+02, 5.17E+02, 3.88E+02,
+ 2008 ,    1.79E+03, 2.40E+03, 1.32E+03, 6.55E+02, 5.27E+02, 2.95E+02,
+ 2009 ,    1.59E+03, 1.46E+03, 1.71E+03, 8.94E+02, 4.02E+02, 2.81E+02,
+
+ Estimated population abundance at 1st Jan 2010
+
+    ,     0.00E+00, 1.28E+03, 1.11E+03, 1.27E+03, 6.48E+02, 2.65E+02,
+
+ Taper weighted geometric mean of the VPA populations: 
+
+    ,     4.24E+03, 3.41E+03, 2.33E+03, 1.49E+03, 8.81E+02, 4.53E+02,
+
+ Standard error of the weighted Log(VPA populations) :
+
+    ,        .7149,    .6403,    .5111,    .4684,    .3945,    .4155,
+1
+
+ Log catchability residuals.
+
+
+
+ Fleet : SP-CORUTR8c         
+
+  Age  ,  1990,  1991,  1992,  1993,  1994,  1995,  1996,  1997,  1998,  1999
+     1 , No data for this fleet at this age
+     2 ,   .39,   .79,   .28,  -.16, -1.10,  -.13,   .31,  -.24,  -.58,  -.61
+     3 ,   .06,  -.10,   .45,  -.10,  -.08,  -.30,  -.62,  -.08,  -.24,  -.06
+     4 ,   .15,   .10,   .47,   .15,   .12,  -.23,  -.21,  -.08,  -.09,  -.25
+     5 ,   .37,   .90,  1.33,   .38,   .80,  -.37,   .25,   .06,   .39,   .15
+     6 ,   .28,   .21,   .08,  -.04,  1.18,  -.67,   .30,   .83,  1.46,  1.11
+ 
+
+
+  Age  ,  2000,  2001,  2002,  2003,  2004,  2005,  2006,  2007,  2008,  2009
+     1 , No data for this fleet at this age
+     2 ,  -.18,   .27,  -.13,   .34,  -.24,  -.24,   .35,   .26,   .12,   .48
+     3 ,   .23,   .43,   .48,  -.17,  -.35,   .19,   .00,   .31,   .05,  -.11
+     4 ,   .04,  -.10,   .16,  -.09,  -.27,  -.24,   .04,   .19,   .26,  -.14
+     5 ,   .24,  -.37,  -.03,  -.46,  -.64,  -.98,  -.76,  -.33,  -.29,  -.65
+     6 ,  -.33,  -.18,  -.50,  -.92,  -.03,  -.95,  -.93,  -.61,  -.88,  -.68
+ 
+
+
+
+ Mean log catchability and standard error of ages with catchability
+ independent of year class strength and constant w.r.t. time
+
+
+    Age ,         5,         6
+ Mean Log q,   -5.6282,   -5.6282,
+ S.E(Log q),     .6011,     .7513,
+ 
+
+
+
+
+ Regression statistics :
+
+ Ages with q dependent on year class strength
+
+ Age, Slope , t-value , Intercept, RSquare, No Pts, Reg s.e, Mean Log q
+
+  2,     .73,    1.539,      7.53,     .64,     20,     .46,   -7.36,
+  3,     .71,    2.171,      6.91,     .76,     20,     .29,   -6.61,
+  4,     .53,    4.622,      6.64,     .84,     20,     .21,   -6.12,
+ 
+ Ages with q independent of year class strength and constant w.r.t. time.
+
+ Age, Slope , t-value , Intercept, RSquare, No Pts, Reg s.e,  Mean Q
+
+  5,     .56,    2.378,      6.10,     .62,     20,     .30,   -5.63,
+  6,    1.19,    -.399,      5.62,     .19,     20,     .91,   -5.69,
+1
+
+
+
+
+ Fleet : SP-AVILESTR         
+
+  Age  ,  1990,  1991,  1992,  1993,  1994,  1995,  1996,  1997,  1998,  1999
+     1 , No data for this fleet at this age
+     2 ,  -.07,   .08, 99.99,  -.19,   .09,  -.61,  -.07,   .00,  -.14,  -.15
+     3 ,  -.21,  -.31, 99.99,  -.65,   .14,  -.75,  -.41,   .30,   .07,   .22
+     4 ,  -.09,  -.40, 99.99,  -.75,   .26,  -.19,   .03,  -.12,   .37,   .28
+     5 ,  -.74,  -.15, 99.99, -1.26,   .59,  -.02,   .71,   .55,   .53,   .41
+     6 ,  -.79, -1.17, 99.99, -1.07,   .36,  -.02,   .81,  1.21,  1.16,  1.21
+ 
+
+
+  Age  ,  2000,  2001,  2002,  2003,  2004,  2005,  2006,  2007,  2008,  2009
+     1 , No data for this fleet at this age
+     2 ,   .22,   .44,   .22,   .20, 99.99, 99.99, 99.99, 99.99, 99.99, 99.99
+     3 ,   .21,   .97,   .47,  -.04, 99.99, 99.99, 99.99, 99.99, 99.99, 99.99
+     4 ,   .27,   .31,   .19,  -.17, 99.99, 99.99, 99.99, 99.99, 99.99, 99.99
+     5 ,  -.02,   .16,  -.19,  -.59, 99.99, 99.99, 99.99, 99.99, 99.99, 99.99
+     6 ,  -.63,   .24,  -.56, -1.11, 99.99, 99.99, 99.99, 99.99, 99.99, 99.99
+ 
+
+
+
+ Mean log catchability and standard error of ages with catchability
+ independent of year class strength and constant w.r.t. time
+
+
+    Age ,         5,         6
+ Mean Log q,   -4.4014,   -4.4014,
+ S.E(Log q),     .5906,     .9214,
+ 
+
+
+
+
+ Regression statistics :
+
+ Ages with q dependent on year class strength
+
+ Age, Slope , t-value , Intercept, RSquare, No Pts, Reg s.e, Mean Log q
+
+  2,     .40,    4.965,      6.92,     .86,     13,     .27,   -5.06,
+  3,     .61,    1.479,      6.00,     .56,     13,     .49,   -4.83,
+  4,     .81,     .862,      5.25,     .65,     13,     .34,   -4.75,
+ 
+ Ages with q independent of year class strength and constant w.r.t. time.
+
+ Age, Slope , t-value , Intercept, RSquare, No Pts, Reg s.e,  Mean Q
+
+  5,     .89,     .248,      4.68,     .30,     13,     .55,   -4.40,
+  6,    4.85,   -1.593,     -2.23,     .02,     13,    4.21,   -4.43,
+1
+
+
+
+
+ Fleet : SP-GFS						        
+
+  Age  ,  1990,  1991,  1992,  1993,  1994,  1995,  1996,  1997,  1998,  1999
+     1 ,  -.27,  -.40,  -.10,   .03,  -.90,  -.21,   .06,  -.06,   .00,   .33
+     2 ,   .08,  -.28,  -.49,   .06,  -.81,  -.58,  -.03,   .06,  -.11,   .35
+     3 ,   .05,  -.75,  -.37,  -.88,   .26, -1.05,  -.87,   .02,   .20,   .41
+     4 ,   .28,  -.14,   .00,  -.07,   .05,  -.26,  -.33,  -.14,  -.15,  -.10
+     5 ,   .22,  -.05,   .26,  -.26,   .15,  -.06,  -.14,   .00,   .05,   .14
+     6 ,   .16,  -.84,  -.87,  -.97,  -.05,  -.52,   .07,   .11,  1.15,  1.48
+ 
+
+
+  Age  ,  2000,  2001,  2002,  2003,  2004,  2005,  2006,  2007,  2008,  2009
+     1 ,   .77,   .14,   .46,   .22,   .15,   .50,   .02,   .12,  -.45,  -.40
+     2 ,   .65,   .64,   .39,   .09,   .22,   .00,   .30,  -.09,  -.04,  -.40
+     3 ,   .37,   .26,   .84,   .06,   .10,   .53,   .22,   .45,   .14,   .01
+     4 ,   .31,   .28,  -.31,  -.07,  -.02,   .28,   .05,   .32,   .04,   .00
+     5 ,   .23,  -.01,   .06,  -.30,  -.26,   .34,   .06,   .07,  -.18,  -.32
+     6 ,  -.15,  -.56,  -.79, -1.29,   .48,  -.12,  -.17,  -.15,  -.78,  -.22
+ 
+
+
+
+ Mean log catchability and standard error of ages with catchability
+ independent of year class strength and constant w.r.t. time
+
+
+    Age ,         5,         6
+ Mean Log q,   -6.2632,   -6.2632,
+ S.E(Log q),     .1950,     .7181,
+ 
+
+
+
+
+ Regression statistics :
+
+ Ages with q dependent on year class strength
+
+ Age, Slope , t-value , Intercept, RSquare, No Pts, Reg s.e, Mean Log q
+
+  1,     .52,    3.446,      7.71,     .74,     20,     .39,   -7.29,
+  2,     .66,    2.239,      7.28,     .71,     20,     .39,   -6.92,
+  3,     .89,     .467,      6.87,     .49,     20,     .53,   -6.77,
+  4,     .75,    2.418,      6.67,     .84,     20,     .21,   -6.49,
+ 
+ Ages with q independent of year class strength and constant w.r.t. time.
+
+ Age, Slope , t-value , Intercept, RSquare, No Pts, Reg s.e,  Mean Q
+
+  5,     .82,    1.941,      6.34,     .87,     20,     .15,   -6.26,
+  6,    1.93,   -1.363,      6.82,     .11,     20,    1.30,   -6.46,
+1
+
+
+ Terminal year survivor and F summaries :
+
+ Age  1   Catchability dependent on age and year class strength
+
+ Year class = 2008
+
+ Fleet,                 Estimated,    Int,       Ext,    Var,    N, Scaled,  Estimated
+      ,                 Survivors,    s.e,       s.e,   Ratio,    , Weights,    F    
+ SP-CORUTR8c         ,         1.,   .000,       .000,    .00,   0,  .000,     .000
+ SP-AVILESTR         ,         1.,   .000,       .000,    .00,   0,  .000,     .000
+ SP-GFS						        ,       853.,   .426,       .000,    .00,   1,  .652,     .029
+
+   P shrinkage mean  ,      3410.,    .64,,,,                        .294,     .007
+
+   F shrinkage mean  ,       787.,   1.50,,,,                        .054,     .032
+
+ Weighted prediction :
+
+ Survivors,        Int,      Ext,    N,    Var,     F
+ at end of year,   s.e,      s.e,     ,   Ratio,     
+      1276.,       .34,      .53,    3,   1.541,   .020
+
+
+
+1
+ Age  2   Catchability dependent on age and year class strength
+
+ Year class = 2007
+
+ Fleet,                 Estimated,    Int,       Ext,    Var,    N, Scaled,  Estimated
+      ,                 Survivors,    s.e,       s.e,   Ratio,    , Weights,    F    
+ SP-CORUTR8c         ,      1791.,   .470,       .000,    .00,   1,  .225,     .044
+ SP-AVILESTR         ,         1.,   .000,       .000,    .00,   0,  .000,     .000
+ SP-GFS						        ,       724.,   .300,       .025,    .08,   2,  .548,     .107
+
+   P shrinkage mean  ,      2326.,    .51,,,,                        .203,     .034
+
+   F shrinkage mean  ,       475.,   1.50,,,,                        .024,     .158
+
+ Weighted prediction :
+
+ Survivors,        Int,      Ext,    N,    Var,     F
+ at end of year,   s.e,      s.e,     ,   Ratio,     
+      1114.,       .22,      .28,    5,   1.238,   .071
+
+
+
+ Age  3   Catchability dependent on age and year class strength
+
+ Year class = 2006
+
+ Fleet,                 Estimated,    Int,       Ext,    Var,    N, Scaled,  Estimated
+      ,                 Survivors,    s.e,       s.e,   Ratio,    , Weights,    F    
+ SP-CORUTR8c         ,      1211.,   .254,       .102,    .40,   2,  .434,     .102
+ SP-AVILESTR         ,         1.,   .000,       .000,    .00,   0,  .000,     .000
+ SP-GFS						        ,      1308.,   .253,       .049,    .20,   3,  .406,     .095
+
+   P shrinkage mean  ,      1486.,    .47,,,,                        .146,     .084
+
+   F shrinkage mean  ,       422.,   1.50,,,,                        .014,     .269
+
+ Weighted prediction :
+
+ Survivors,        Int,      Ext,    N,    Var,     F
+ at end of year,   s.e,      s.e,     ,   Ratio,     
+      1268.,       .17,      .07,    7,    .415,   .098
+
+
+
+1
+ Age  4   Catchability dependent on age and year class strength
+
+ Year class = 2005
+
+ Fleet,                 Estimated,    Int,       Ext,    Var,    N, Scaled,  Estimated
+      ,                 Survivors,    s.e,       s.e,   Ratio,    , Weights,    F    
+ SP-CORUTR8c         ,       616.,   .166,       .094,    .56,   3,  .454,     .131
+ SP-AVILESTR         ,         1.,   .000,       .000,    .00,   0,  .000,     .000
+ SP-GFS						        ,       646.,   .168,       .030,    .18,   4,  .440,     .125
+
+   P shrinkage mean  ,       881.,    .39,,,,                        .099,     .093
+
+   F shrinkage mean  ,       245.,   1.50,,,,                        .007,     .300
+
+ Weighted prediction :
+
+ Survivors,        Int,      Ext,    N,    Var,     F
+ at end of year,   s.e,      s.e,     ,   Ratio,     
+       648.,       .11,      .06,    9,    .512,   .125
+
+
+
+ Age  5   Catchability constant w.r.t. time and dependent on age
+
+ Year class = 2004
+
+ Fleet,                 Estimated,    Int,       Ext,    Var,    N, Scaled,  Estimated
+      ,                 Survivors,    s.e,       s.e,   Ratio,    , Weights,    F    
+ SP-CORUTR8c         ,       318.,   .162,       .161,    .99,   4,  .362,     .189
+ SP-AVILESTR         ,         1.,   .000,       .000,    .00,   0,  .000,     .000
+ SP-GFS						        ,       240.,   .134,       .133,   1.00,   5,  .630,     .244
+
+   F shrinkage mean  ,       169.,   1.50,,,,                        .007,     .331
+
+ Weighted prediction :
+
+ Survivors,        Int,      Ext,    N,    Var,     F
+ at end of year,   s.e,      s.e,     ,   Ratio,     
+       265.,       .10,      .10,   10,    .983,   .224
+
+
+
+1
+ Age  6   Catchability constant w.r.t. time and age (fixed at the value for age)  5
+
+ Year class = 2003
+
+ Fleet,                 Estimated,    Int,       Ext,    Var,    N, Scaled,  Estimated
+      ,                 Survivors,    s.e,       s.e,   Ratio,    , Weights,    F    
+ SP-CORUTR8c         ,       178.,   .164,       .139,    .85,   5,  .352,     .255
+ SP-AVILESTR         ,         1.,   .000,       .000,    .00,   0,  .000,     .000
+ SP-GFS						        ,       179.,   .132,       .102,    .77,   6,  .636,     .253
+
+   F shrinkage mean  ,       320.,   1.50,,,,                        .011,     .150
+
+ Weighted prediction :
+
+ Survivors,        Int,      Ext,    N,    Var,     F
+ at end of year,   s.e,      s.e,     ,   Ratio,     
+       180.,       .10,      .08,   12,    .738,   .254
+
+
+
+1
