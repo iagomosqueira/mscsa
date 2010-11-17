@@ -1,0 +1,414 @@
+body {
+  margin-left: 2%;
+}
+li
+{
+    FONT-SIZE: 9pt;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+.doctitle  {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    COLOR: #333333;
+    FONT-FAMILY: Tahoma;
+    BACKGROUND-COLOR: #cccc99;
+	height: 13pt;
+}
+
+.docdetail
+{
+    FONT-SIZE: 8pt;
+    COLOR: #333333;
+    FONT-FAMILY: Tahoma;
+	padding-top: 3px;
+	padding-bottom: 3px;
+
+}
+.docdetailarab
+{
+    FONT-SIZE: 10pt;
+    COLOR: #990000;
+    FONT-FAMILY: Simplified Arabic;
+    TEXT-ALIGN: right
+}
+
+.doctopic  {
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Tahoma;
+    color : #666666;
+	FONT-WEIGHT: normal;
+}
+.docdetailcenter  {
+	font-family : Tahoma;
+	font-size: 8pt;
+	color : #666666;
+}
+
+.doctab  {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    COLOR: #333333;
+    FONT-FAMILY: Tahoma;
+    BACKGROUND-COLOR: #cccc99;
+	height: 13pt;
+}
+
+.error  {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: #333333;
+    FONT-FAMILY: Tahoma;
+    TEXT-ALIGN: left
+}
+
+.dlink  {
+	font-family : Tahoma;
+	font-size: 11px;
+	color : #333333;
+	font-weight: bold;
+}
+.dlinkarab  {
+	font-family : Tahoma;
+	font-size: 11px;
+	color : #333333;
+	font-weight: bold;
+
+}
+.dlink:hover {
+    color : #333333;
+}
+.dlinkarab:hover {
+    color : #333333;
+}
+
+.a {
+	font-family : Tahoma;
+	background-color :  #990000;
+	color : #FFFFFF;
+	font-size : 11px;
+	font-weight : bold;
+}
+
+A {
+	font-size : 11px;
+	font-family : Tahoma;
+	text-decoration : none;
+}
+
+
+a:hover {
+	font-size : 11px;
+	font-family : Tahoma;
+	text-decoration: underline;
+
+}
+
+.b {
+	font-family : Tahoma;
+	background-color : #990000;
+	color : #FFFFFF;
+	font-size : 11px;
+	font-weight : bold;
+	text-decoration : none;
+}
+
+.b:hover {
+	font-family : Tahoma;
+	background-color : #990000;
+	color : #FFFFFF;
+	font-size : 11px;
+	font-weight : bold;
+}
+.c {
+	font-family : Tahoma;
+	background-color : #CCCC99;
+	color : #333333;
+	font-size : 11px;
+	font-weight : bold;
+	text-decoration : none;
+}
+
+.c:hover {
+	font-family : Tahoma;
+	background-color : #CCCC99;
+	color : #333333;
+	font-size : 11px;
+	font-weight : bold;
+}
+
+table.menu {POSITION: absolute; Z-INDEX:1; VISIBILITY: hidden;BACKGROUND-COLOR: #990000}
+
+.globutton
+{
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 10px;
+	COLOR: #000000;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #deddbc;
+}
+.pixel
+{
+    FONT-SIZE: 1px
+}
+.pixel_1
+{
+	border-top:1px solid cc0000;
+	FONT-SIZE: 1px	   
+}
+.pixel_grey
+{
+	border-top: 1px solid cccccc;
+	FONT-SIZE: 1px;
+}
+.glonumrec
+{
+    FONT-SIZE: 8pt;
+    COLOR: #990000;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.glodetailcenter
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    COLOR: #333333;
+    FONT-FAMILY: Tahoma;
+    BACKGROUND-COLOR: #cccc99;
+	height: 13pt;
+}
+.glotab
+{
+    FONT-SIZE: 8pt;
+    BACKGROUND-IMAGE: none;
+	COLOR: #333333;
+    BACKGROUND-REPEAT: repeat;
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR: #f0f0f0;
+}
+.glotabarab
+{
+    FONT-SIZE: 10pt;
+    COLOR: #333333;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #f0f0f0;
+    TEXT-ALIGN: right;
+}
+.glink
+{
+    FONT-SIZE: 8pt;
+    COLOR: #990000;
+    FONT-FAMILY: Tahoma;
+    TEXT-DECORATION: none
+}
+.glink:hover
+{
+    COLOR: #990000;
+}
+.globody
+{
+    FONT-SIZE: 8pt;
+    COLOR: #333333;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+.glonumrec
+{
+    FONT-SIZE: 8pt;
+    COLOR: #333333;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.glonumrecArab
+{
+    FONT-SIZE: 10pt;
+    COLOR: #333333;
+    FONT-FAMILY: Simplified Arabic;
+    TEXT-ALIGN: right
+}
+.tiptitle  {
+    font-family : Verdana, Arial, Helvetica, sans-serif;
+    font-weight : bold;
+    font-size: 8pt;
+    color : #000000;	
+    background: #cccccc;
+	height: 18px;
+	padding-left: 4px
+}
+.tiptitlearab {
+    font-family : Simplified Arabic;
+    font-weight : bold;
+    font-size: 12pt;
+    color : #000000;	
+    background:#cccccc;
+	height: 20px;
+	padding-right: 4px
+}
+.tiptab  {
+    FONT-SIZE: 8pt;
+    BACKGROUND-IMAGE: none;
+	COLOR: #333333;
+    BACKGROUND-REPEAT: repeat;
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR: #f0f0f0;
+	height: 20px;
+	padding-left: 4px
+}
+
+.tiptabarab  {
+	FONT-SIZE: 12pt;
+    COLOR: #333333;
+    FONT-FAMILY: Simplified Srabic;
+    BACKGROUND-COLOR: #f0f0f0;
+    TEXT-ALIGN: right;
+}
+.tipdetail
+{
+    FONT-SIZE: 8pt;
+    COLOR: #333333;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	padding-left: 4px
+}
+.tipdetailarab
+{
+    FONT-SIZE: 13pt;
+    COLOR: #666666;
+    FONT-FAMILY: Simplified Srabic;
+    TEXT-ALIGN: right;
+	padding-right: 4px
+}
+
+.showtitle
+{
+    FONT-SIZE: 10pt;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+.showtext
+{
+    FONT-SIZE: 10pt;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+.showheader
+{
+    FONT-SIZE: 10pt;
+    font-weight : bold;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-ALIGN: right
+}
+
+.showlink
+{
+	font-size : 11px;
+	font-family : Tahoma;
+ COLOR: #6699ff;
+}
+
+.helpheader
+{
+
+    font-weight : bold;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-ALIGN: left
+}
+.helptitle
+{
+    FONT-SIZE: 8pt;
+    font-weight : bold;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-ALIGN: left
+}
+.helplink
+{
+    FONT-SIZE: 8pt;
+    COLOR: #990000;
+    FONT-FAMILY: Tahoma;
+}
+.helptext
+{
+    FONT-SIZE: 8pt;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+.helptab
+{
+    FONT-SIZE: 8pt;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+.actionhome
+{
+    FONT-SIZE:8pt;
+    COLOR: #000000;	
+    FONT-FAMILY: Tahoma;
+	padding-left:2pt;
+	padding-right:2pt;
+	
+}
+.titlerelease
+{
+    FONT-SIZE:10pt;
+    COLOR: #990000;	
+    FONT-FAMILY: Verdana;
+	padding-right:2pt;
+	font-weight:bold;
+}
+.titlereleasearab
+{
+    FONT-SIZE:15pt;
+    COLOR: #990000;	
+    FONT-FAMILY: Simplified Arabic;
+	padding-right:2pt;
+	font-weight:bold;
+}
+.titlepubrelease
+{
+    FONT-SIZE:8pt;
+    COLOR: #333333;	
+    FONT-FAMILY: Tahoma;
+	padding-left:2pt;
+	padding-right:2pt;
+	font-weight:bold;
+	border-bottom:1px solid cc0000;
+}
+.titlebox
+{
+    FONT-SIZE:8pt;
+    COLOR: #333333;	
+    FONT-FAMILY: Tahoma;
+	padding-left:2pt;
+	padding-right:2pt;
+	font-weight:bold;
+	height:20px
+}
+.alink {
+	font-family : Tahoma;
+	color : #333333;
+	font-size : 8pt;
+	text-decoration:none;
+}
+.alink:hover {
+    color : #333333;
+	text-decoration:underline;
+}
+.boxborder {
+border-left:1px solid #cccccc;
+border-right:1px solid #cccccc;
+}
+.titlebrowse
+{
+    FONT-SIZE:10pt;
+    COLOR: #999966;	
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	padding-left:5pt;
+	padding-right:2pt;
+	font-weight:bold;
+	border-bottom:1px solid cc0000;
+}
+.inputbox
+{
+    FONT-SIZE:8pt;
+    COLOR: #333333;	
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;	
+}
