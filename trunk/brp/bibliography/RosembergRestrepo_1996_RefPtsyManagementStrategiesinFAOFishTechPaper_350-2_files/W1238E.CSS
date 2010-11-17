@@ -1,0 +1,78 @@
+BODY        {font-family:    Arial, helvetica, sans-serif; ;
+             background:     #FFFFFF  ; 
+             margin-left:       4%; 
+             margin-right:      4%;  
+             font-size:        11pt; }
+
+H1          {display:          block;
+             font-size:        16pt;
+             font-family:      Arial, helvetica, sans-serif;
+             text-align:        center;
+             color: 		#0E6259; }
+
+H2	    {display:          block;
+             text-align:        center;
+			 color:            #058F80;
+             font-size:        14pt;
+             font-family:      Arial, helvetica, sans-serif; }
+
+H3	    {display:          block;
+             text-align:        center;
+			 color:            #058F80;
+             font-size:        13pt;
+             font-family:      Arial, helvetica, sans-serif; }
+
+H4          {margin-right:      1%;  
+             text-align:        center;
+			 margin-top:        0; 
+             margin-bottom:     0; 
+             color:            #058F80; }
+
+H5          {margin-right:      1%; 
+             margin-top:        0; 
+             margin-bottom:     0;
+             text-align:        center; }
+
+H6          {margin-top:        0; 
+             margin-bottom:     0;
+             text-align:        center;
+			 margin-right:      5%; 
+             font-size:        10pt;
+             font-family:      Arial, helvetica, sans-serif;}
+
+
+TD      {font-size:         10pt;
+         font-family:      Arial, helvetica, sans-serif; }
+
+TH      {font-size:         10pt;
+         font-family:      Arial, helvetica, sans-serif;
+		 FONT-WEIGHT: bold; }
+
+CAPTION      {font-size:         11pt;
+			  font-family:      Arial, helvetica, sans-serif;}
+		 
+
+UL          {list-style-type:   disc; }
+
+SUP         {font-size:        8pt;
+             font-family:      Arial, helvetica, sans-serif;}
+
+
+.Footnote   {font-size:         8pt;
+             margin-top:        0; 
+             margin-bottom:     0;}
+
+.TOC0 {
+	FONT-WEIGHT: bold; COLOR: #1C6C64; FONT-SIZE: 24pt; FONT-FAMILY: Garamond, Optima, Garamond, sans-serif; TEXT-ALIGN: center
+}
+
+.doclink {
+	COLOR: #207C72; FONT-SIZE: 12pt; FONT-FAMILY: Times New Roman, Times New Roman, Arial, Helvetica, sans-serif
+}
+
+.doclink:hover {
+	BACKGROUND: #72E6DA; COLOR: black; FONT-FAMILY: Times New Roman, Times New Roman, Arial, Helvetica, sans-serif
+}
+
+.rn1 {margin-right:30px; text-indent:0px}
+.rn2 {margin-right:10px; text-indent:0px}
