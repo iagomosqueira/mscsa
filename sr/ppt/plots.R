@@ -63,4 +63,12 @@ afoo(0.05, seq(0.07, 0.17, length=3))
 
 
 
+# plot fit
+plot(ssb, rec, pch=19, xlab='SSB', ylab='recruitment', xlim=c(0, 6000), ylim=c(0, 9000))
+lssb <- seq(0, max(ssb)) 
+lines(lssb, res$par[1] * lssb / (res$par[2] + lssb), col='red')
 
+# resid
+estim <- res$par[1] * ssb / (res$par[2] + ssb)
+for(i in 1:length(ssb))
+  lines(c(ssb[i], ssb[i]), c(estim[i], rec[i]), lty=2)
