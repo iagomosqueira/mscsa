@@ -85,6 +85,7 @@ for (i in (iyears+1):(iyears+pyears))
   res$biom <- apply(apply(res$naa[i-1,,], c(2), function(x) x * waa), 2, sum, na.rm=TRUE)
   # If biomass < meanb, cut F by 10%
   f[res$biom < meanb] <- f[res$biom < meanb] * 0.90
+  f[res$biom > meanb] <- f[res$biom > meanb] * 1.10
   print(sum(res$biom < meanb))
 
   # project population with new Fs
@@ -99,7 +100,6 @@ for (i in (iyears+1):(iyears+pyears))
   }
 }
 
-# Real population
 # recruitment
 plot(apply(naa[,1,], 1, median), type='b', pch=19, ylim=c(0, max(naa)), xlab="",
     ylab="rec")
@@ -112,4 +112,11 @@ ssb <- apply(apply(naa[,,], c(1,3), function(x) x * waa), c(2,3), sum)
 plot(apply(ssb, 1, median), type='b', ylim=c(0, max(ssb)), pch=19, xlab="", ylab="SSB")
   lines(1:50, apply(ssb, 1, quantile, 0.025), lty=2)
   lines(1:50, apply(ssb, 1, quantile, 0.975), lty=2)
+abline(v=25, lty=2, col='red')
+
+# SSB
+catch <- apply(apply(caa[,,], c(1,3), function(x) x * waa), c(2,3), sum)
+plot(apply(catch, 1, median), type='b', ylim=c(0, max(ssb)), pch=19, xlab="", ylab="Catch")
+  lines(1:50, apply(catch, 1, quantile, 0.025), lty=2)
+  lines(1:50, apply(catch, 1, quantile, 0.975), lty=2)
 abline(v=25, lty=2, col='red')
